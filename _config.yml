@@ -1,3 +1,6 @@
+include:
+  - _pages
+
 lang: en-US
 name:
   full: Calvin Kosmatka

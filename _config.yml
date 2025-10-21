@@ -1,9 +1,14 @@
+lang: en-US
+name:
+  full: Calvin Kosmatka
+  given: Calvin
+  family: Kosmatka
 github_username: calvinkosmatka
 
-first_name: Calvin
-last_name: Kosmatka
-lang: en-US
+affiliations: University of Wisconsin - Madison
 
 nav_right:
+  - href: /resources
+    title: Resources
   - href: /about
     title: About

@@ -1,5 +1,4 @@
-theme: minima
-header_pages:
-  - about.md
-twitter_username: calvinkosmatka
+plugins:
+  - jekyll-remote-theme
+theme: alshedivat/al-folio
 github_username: calvinkosmatka

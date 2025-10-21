@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{site.lang}}">
+<head>
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<header>
+<nav>
+<div class="right">
+{% for item in site.nav_right %}
+<a href="{{item.href}}">{{item.title}}</a>
+{% endfor %}
+</div>
+</nav>
+</header>
+<body>
+{{ content }}
+</body>
+</html>

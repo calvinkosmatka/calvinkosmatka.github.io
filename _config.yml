@@ -1,4 +1,4 @@
 plugins:
   - jekyll-remote-theme
-theme: alshedivat/al-folio
+remote_theme: alshedivat/al-folio
 github_username: calvinkosmatka

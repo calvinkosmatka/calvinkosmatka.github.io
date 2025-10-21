@@ -2,3 +2,8 @@ plugins:
   - jekyll-remote-theme
 remote_theme: alshedivat/al-folio
 github_username: calvinkosmatka
+
+first_name: Calvin
+last_name: Kosmatka
+lang: en
+max_width: 930px

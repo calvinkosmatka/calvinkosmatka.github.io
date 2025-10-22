@@ -3,18 +3,21 @@
 <head>
 <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-<header>
-<nav>
-<div class="left">
-</div>
-<div class="right">
-{% for item in site.nav_right %}
-<a href="{{item.href}}">{{item.title}}</a>
-{% endfor %}
-</div>
-</nav>
-</header>
 <body>
+<header>
+{% include nav.liquid %}
+</header>
+<main>
 {{ content }}
+</main>
+{% if page.permalink == '/' %}
+<footer>
+<small>
+<a target="_blank" href="https://github.com/calvinkosmatka/calvinkosmatka.github.io/">
+    This site is hosted by GitHub Pages and built using Jekyll
+</a>
+</small>
+</footer>
+{% endif %}
 </body>
 </html>

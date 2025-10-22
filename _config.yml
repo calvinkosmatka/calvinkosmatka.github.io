@@ -8,10 +8,9 @@ name:
   family: Kosmatka
 github_username: calvinkosmatka
 
-affiliations: University of Wisconsin - Madison
-
+affiliations: University of Wisconsin—Madison
 nav_right:
   - href: /resources
     title: Resources
-  - href: /about
+  - href: /
     title: About

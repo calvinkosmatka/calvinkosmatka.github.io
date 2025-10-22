@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-<h1> {{site.name.full}}</h1>
-<h2> {{site.affiliations}}</h2>
 <img
   src={{page.image}}
-  style="display:block;float:right;margin-right:2rem;border-radius:1rem"
+  style="display:block;float:right;margin-left:1em;margin-right:2rem;border-radius:1rem"
   class="responsive"
-  alt="Image of {{sit.name.full}}"
+  alt="Image of {{site.name.full}}"
 />
+<h2> {{site.name.full}}</h2>
+<h3> {{site.affiliations}}</h3>
+
+{{ content }}

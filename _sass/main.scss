@@ -64,10 +64,26 @@ img.responsive {
 }
 
 a:link {
+    text-decoration: none;
     color: unset;
 }
 a:visited {
+    text-decoration: none;
     color: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+h3,
+h4,
+p {
+    margin-top: 0px;
 }
 
 @media (prefers-reduced-motion: reduce) {

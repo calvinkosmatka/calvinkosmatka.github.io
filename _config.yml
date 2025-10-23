@@ -1,6 +1,8 @@
 include:
   - _pages
 
+title: Calvin Kosmatka
+
 lang: en-US
 name:
   full: Calvin Kosmatka
@@ -10,7 +12,9 @@ github_username: calvinkosmatka
 
 affiliations: University of Wisconsin—Madison
 nav_right:
-  - href: /resources
+  - href: /projects/
+    title: Projects
+  - href: /resources/
     title: Resources
-  - href: /
-    title: About
+  - href: /personal/
+    title: Personal

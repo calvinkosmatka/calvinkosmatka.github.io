@@ -1,5 +1,8 @@
 <nav>
 <div class="left">
+{% if page.permalink != '/' %}
+<a href="/">Calvin Kosmatka</a>
+{% endif %}
 </div>
 <div class="right">
 {% for item in site.nav_right %}
